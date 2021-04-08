@@ -36,7 +36,7 @@ def prime_numbers(n):
 '''
 
 '''
-join() : 문자열 String 합치자
+join() : 문자열 String 합치자 (int는 합칠 수 없어)
 ''.join() --> 공백없이 하나의 문자
 ','.join() --> ,로 합치기
 

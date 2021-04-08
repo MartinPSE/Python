@@ -59,4 +59,4 @@ def solution(numbers):
     return len(val_set)  # set에 추가 된 갯수를 반환.
 
 
-print(solution2("011"))
+print(solution("011"))
