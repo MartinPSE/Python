@@ -42,7 +42,8 @@ for _ in range(M):
     a, b = map(int, stdin.readline().split())
     graph[a].add(b)
     graph[b].add(a)
-
-
-print("BFS result",bfs(graph, V))
-print("DFS result",dfs(graph, V))
+# * 연산자 -- > 어떤 파라미터를 몇개를 받을지 모르는 경우 사용한다
+# *(args) /  tuple 형태 (list)
+# **(kwargs) / dict(형태)
+print(*bfs(graph, V))
+print(*dfs(graph, V))
